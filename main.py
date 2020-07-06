@@ -1,4 +1,4 @@
-  import os
+import os
 import nt
 import time
 choice=0
@@ -73,7 +73,7 @@ def selection():
         ch_s1=input("Do you want to use this system as chat server?? (Warning! Existing chat data will be deleted if exists!!) y-yes n-no ")
         if ch_s1.lower()=='y':
             print("==                               Using current system name as chat server                      ==")
-            sysname=
+            sysname=input('') 
             try:
                 os.chdir("C:\\Users\\Public\\CH_FILES\\")
             except:
